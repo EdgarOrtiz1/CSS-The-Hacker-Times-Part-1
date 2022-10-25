@@ -2,43 +2,41 @@
 body{
     background-color: #eee;
     border-color: #eee;
+    font-family: source-san-pro;
 }
-
+head{
+    font-family: abril-Fatface;
+}
+article{
+    font-family: roboto-slab;
+}
 .newspaper-container{
     background-color: white;
     box-shadow: #ddd;
 }
-
-main > p{
+main > h5{
     color: #dd3232;
 }
-
 nav{
     color: #777;
-    border-top: 1em;
-    border-bottom: 1em;
 }
-
 *{
     color: default;
     font-family: 'Times New Roman', Times, serif;
 }
-
 .newspaper-container{
     width: 700px;
-    border-radius: 100%;
+    border-radius: 1%;
     box-shadow: 1em;
     padding: 1em;
 }
-
 title{
     text-align: center;
 }
-
 li{
     list-style-type: none;
-    margin-left: 0em;
+    margin-left: 0;
+    padding: 5px; 
     display: inline-block;
-    padding:1em;    
 }
 
